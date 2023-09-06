@@ -1,0 +1,24 @@
+<h1 class="destino">Meus Destinos</h1>
+<div class="container">
+    <a href="/">Adicionar Destinos</a>
+    {{#each viagens}}
+    <div>
+        # {{this.id}}
+        <br>
+        -
+         <span class="bold">
+            <a href="/viagens/{{this.id}}">{{this.destino}}</a>
+            <br>
+            </span>
+         -
+         
+        data de ida: {{this.data_ida}}
+          <br>
+          -
+          data de volta: {{this.data_volta}}
+          <br>
+          -
+          comentários da viagem: {{this.impressoes}}
+    </div>
+    {{/each}}
+</div>

@@ -1,0 +1,30 @@
+<h1>Cadastrar viagens</h1>
+<div class="box">
+    <form action="/viagens/insertviagem" method="post" class="form">
+        <div class="form-control">
+            <label for="destino">Destino da viagem: </label>
+            <input type="text" name="destino" placeholder="Digite o Destino da viagem">
+        </div>
+        <div class="form-control">
+            <label for="data_ida">Data da Ida:</label>
+            <input type="date" name="data_ida" placeholder="..Ex: 16/01/2023">
+        </div>
+        <div class="form-control">
+            <label for="data_volta">Data da Volta:</label>
+            <input type="date" name="data_volta" placeholder="..Ex: 500">
+        </div>
+        <div class="form-control">
+            <label for="impressoes">Impressões da viagem:</label>
+            <textarea name="impressoes" id="" cols="30" rows="10"></textarea>
+        </div>
+        {{!-- <div class="form-control">
+            <label for="nm_paginas">Registros da viagem:</label>
+            <input type="file" name="nm_paginas">
+        </div> --}}
+        <div class="form-control">
+            <label for=""></label>
+            <input type="submit" value="Enviar">
+        </div>
+
+    </form>
+</div>

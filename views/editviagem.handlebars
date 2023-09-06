@@ -1,0 +1,26 @@
+<h1>Atualizar seus registros das viagens</h1>
+
+<form action="/viagens/updateviagem" method="post" class="form">
+    <input type="hidden" name="id" value="{{viagem.id}}">
+     <div class="form-control">
+        <label for="destino">Destino da viagem: </label>
+        <input type="text" name="destino" value="{{viagem.destino}}">
+    </div>
+    <div class="form-control">
+        <label for="data_ida">Data da Ida:</label>
+        <input type="date" name="data_ida" value="{{viagem.data_ida}}">
+    </div>
+    <div class="form-control">
+        <label for="data_volta">Data da Volta:</label>
+        <input type="date" name="data_volta" value="{{viagem.data_volta}}">
+    </div>
+    <div class="form-control">
+        <label for="impressoes">Impressões da viagem:</label>
+        <input type="text" name="impressoes" value="{{viagem.impressoes}}">
+    </div>
+    <div class="form-control">
+        <label for=""></label>
+        <input type="submit" value="Atualizar">
+    </div>
+
+</form>

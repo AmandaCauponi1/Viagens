@@ -1,0 +1,62 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+body{
+    height: 100vh;
+    background: url('https://www.carpemundi.com.br/wp-content/uploads/2020/06/legenda-foto-instagram-744x930.jpg') no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+
+     background-color: #ccc; 
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: cadetblue;
+}
+.navbar{
+    border-bottom: 1px solid #ccc;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: #ccc;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+
+}
+.navbar ul li{
+    margin-left: 1rem;
+}
+.form{
+    width: 450px;
+    margin: 0 auto;
+   
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+}
+.form-control label{
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+.form-control label input{
+    padding: 5px;
+}
+
+ .bold{
+    font-weight: bold;
+}
+
+

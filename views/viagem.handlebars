@@ -1,0 +1,14 @@
+
+<a href="/viagens">Voltar</a>
+<h1>{{viagem.destino}}</h1>
+
+    
+<p>Data de ida: {{viagem.data_ida}}</p>
+<p>Data de volta: {{viagem.data_volta}}</p>
+<p>Impressões: {{viagem.impressoes}}</p>
+
+<a href="/viagens/edit/{{viagem.id}}">Editar</a>
+
+<form action="/viagens/remove/{{viagem.id}}" method="post">
+    <input type="submit" value="Excluir">
+</form>
